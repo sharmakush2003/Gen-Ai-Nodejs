@@ -1,3 +1,5 @@
+// Notes For Video 1st:-
+
 **1. AI naye sawalon ka jawab de sakta hai:** AI aise sawalon ke jawab bhi khud generate kar sakta hai jo usne apni life mein pehle kabhi nahi dekhe honge.
 
 **2. ChatGPT 'रट्टा' (Memorize) nahi maarta:** ChatGPT apne database mein 'Question = Answer' format mein data store karke nahi rakhta (jaise 'Hi' pucha toh 'Hello' save kar lo). Yeh is tarike se kaam nahi karta.
@@ -30,3 +32,5 @@
 * **T**ransformer (jo input text ya data ko analyze karke use naye output mein transform kar sake).
 
 **15. Ek hi sawal ke alag-alag jawab kyu?:** ChatGPT probability (sambhavna) par chalta hai. Jaise 1, 2, 4 ke pattern ke baad agla number 8 (double) bhi ho sakta hai aur 7 (addition) bhi. Waise hi, AI ek hi sawal ke liye har baar ek alag logical pattern chun sakta hai, jisse humein "I am fine" ya "I am doing great" jaise alag-alag jawab milte hain.
+
+// Notes For Video 2nd:-
