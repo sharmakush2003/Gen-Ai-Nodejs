@@ -34,3 +34,35 @@
 **15. Ek hi sawal ke alag-alag jawab kyu?:** ChatGPT probability (sambhavna) par chalta hai. Jaise 1, 2, 4 ke pattern ke baad agla number 8 (double) bhi ho sakta hai aur 7 (addition) bhi. Waise hi, AI ek hi sawal ke liye har baar ek alag logical pattern chun sakta hai, jisse humein "I am fine" ya "I am doing great" jaise alag-alag jawab milte hain.
 
 // Notes For Video 2nd:-
+
+Naye video (How Does LLM Work | Code Implementation) ke main 15 key points yahan diye gaye hain, jinhe aap apne juniors ko aasaani se samjha sakte hain:
+
+**1. LLM Calculator Nahi Hai:** ChatGPT ya Gemini jaise models actually mein math (jaise 2+2=4) calculate nahi karte, woh sirf apne training data ke basis par agla word/token **predict** karte hain.
+
+**2. Prediction ki accuracy:** LLM ek astrologer (jyotish) ki tarah hote hain, jo patterns ke base par itni accurate prediction karte hain ki humein lagta hai woh answer calculate kar rahe hain.
+
+**3. Real-time data ka na hona:** Pure LLM aaj ka mausam ya current news nahi bata sakte, kyunki unki knowledge sirf unke training data tak hi limited hoti hai.
+
+**4. Code run karne ki inability:** LLM aapke liye Python ya koi aur code likh toh sakte hain, par woh use khud se apne andar run (execute) nahi kar sakte.
+
+**5. Badi calculations mein fail:** Agar aap LLM ko aisi badi calculation (jaise 123 * 678) de dein jo usne training mein nahi dekhi hai, toh woh exact answer predict nahi kar pata aur fail ho jata hai.
+
+**6. Training data ka asar:** Agar LLM ko galat data par train kiya gaya hai (jaise "Strawberry mein 2 'R' hote hain"), toh woh confidently galat answer hi dega kyunki woh wahi predict karega jo usne dekha hai.
+
+**7. 'External Tools' ki madad:** In calculations aur real-time data ki kamzoriyon ko door karne ke liye LLMs 'External Tools' (jaise Python interpreter ya Web Search) ka use karte hain.
+
+**8. Tools kaise kaam karte hain:** Jab LLM ko math solve karni hoti hai, toh woh ek python code likh kar external tool ko bhejta hai. Tool use run karke result wapas LLM ko deta hai, aur phir LLM final answer aapko dikhata hai.
+
+**9. API Keys ka use:** Hum directly code likh kar bhi in LLMs se baat kar sakte hain. Iske liye humein API keys ki zaroorat hoti hai (jaise Google AI Studio free API key deta hai).
+
+**10. Code Integration:** In models ko apne system mein use karne ke liye VS Code, Node.js aur inke official packages (jaise `@google/generative-ai`) install karke script likhi ja sakti hai.
+
+**11. Context (Memory) ki zaroorat:** Pure LLMs ke paas khud ki koi memory nahi hoti. Agar aap naya sawal puchenge, toh woh aapke pichle message ko yaad nahi rakhte. 
+
+**12. Poori Chat History bhejna:** Jab aap ChatGPT ya kisi AI se baat karte hain, toh background mein aapka sirf current sawal nahi, balki **poori chat history** LLM ko bheji jati hai taaki uske paas baat ka 'Context' rahe.
+
+**13. Manual History Maintain karna:** Jab hum code (jaise JavaScript) se AI banate hain, toh humein ek Array banana padta hai jisme 'User' ka sawal aur 'Model' ka jawab store hota hai taaki AI purani baaton ko samajh sake.
+
+**14. Auto History Management:** Naye API methods (jaise `chat.sendMessage()`) inbuilt history khud maintain karte hain, jisse developers ko baar-baar manually pura chat history array manage nahi karna padta.
+
+**15. Conclusion (Nishkarsh):** Pure LLM sirf ek best prediction machine hai. Exact Calculation, code run karne, aur real-time data ke liye woh hamesha external tools par hi nirbhar karta hai.
