@@ -8,13 +8,13 @@ dotenv.config();
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 async function mainWithoutContext() {
-    
+
     // Send the query to Groq
     const response = await groq.chat.completions.create({
         messages: [
             {
                 role: "user",
-                content: "Explain how AI works in a few words",
+                content: "Hie how are you?",
             },
         ],
         model: "llama-3.3-70b-versatile",

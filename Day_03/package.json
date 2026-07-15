@@ -1,11 +1,11 @@
 {
-  "name": "day_01",
+  "name": "day_03",
   "version": "1.0.0",
-  "description": "// Notes For Video 1st:-",
+  "description": "",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "LLM.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
